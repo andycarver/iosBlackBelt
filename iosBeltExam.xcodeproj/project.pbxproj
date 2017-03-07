@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3F98EFC21E3BAA240082974D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98EFC11E3BAA240082974D /* AppDelegate.swift */; };
-		3F98EFC41E3BAA240082974D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98EFC31E3BAA240082974D /* ViewController.swift */; };
+		3F98EFC41E3BAA240082974D /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98EFC31E3BAA240082974D /* EditNoteViewController.swift */; };
 		3F98EFC71E3BAA240082974D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F98EFC51E3BAA240082974D /* Main.storyboard */; };
 		3F98EFCA1E3BAA250082974D /* iosBeltExam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F98EFC81E3BAA250082974D /* iosBeltExam.xcdatamodeld */; };
 		3F98EFCC1E3BAA250082974D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F98EFCB1E3BAA250082974D /* Assets.xcassets */; };
 		3F98EFCF1E3BAA250082974D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F98EFCD1E3BAA250082974D /* LaunchScreen.storyboard */; };
+		3F98EFD71E3BB8E50082974D /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F98EFD61E3BB8E50082974D /* NoteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F98EFBE1E3BAA240082974D /* iosBeltExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosBeltExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F98EFC11E3BAA240082974D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F98EFC31E3BAA240082974D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F98EFC31E3BAA240082974D /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
 		3F98EFC61E3BAA240082974D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F98EFC91E3BAA250082974D /* iosBeltExam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iosBeltExam.xcdatamodel; sourceTree = "<group>"; };
 		3F98EFCB1E3BAA250082974D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F98EFCE1E3BAA250082974D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F98EFD01E3BAA250082974D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F98EFD61E3BB8E50082974D /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3F98EFC11E3BAA240082974D /* AppDelegate.swift */,
-				3F98EFC31E3BAA240082974D /* ViewController.swift */,
+				3F98EFC31E3BAA240082974D /* EditNoteViewController.swift */,
 				3F98EFC51E3BAA240082974D /* Main.storyboard */,
+				3F98EFD61E3BB8E50082974D /* NoteTableViewController.swift */,
 				3F98EFCB1E3BAA250082974D /* Assets.xcassets */,
 				3F98EFCD1E3BAA250082974D /* LaunchScreen.storyboard */,
 				3F98EFD01E3BAA250082974D /* Info.plist */,
@@ -99,7 +102,7 @@
 				TargetAttributes = {
 					3F98EFBD1E3BAA240082974D = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZT43KF76JM;
+						DevelopmentTeam = SW67XSUQ7J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F98EFC41E3BAA240082974D /* ViewController.swift in Sources */,
+				3F98EFC41E3BAA240082974D /* EditNoteViewController.swift in Sources */,
+				3F98EFD71E3BB8E50082974D /* NoteTableViewController.swift in Sources */,
 				3F98EFCA1E3BAA250082974D /* iosBeltExam.xcdatamodeld in Sources */,
 				3F98EFC21E3BAA240082974D /* AppDelegate.swift in Sources */,
 			);
@@ -265,7 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZT43KF76JM;
+				DEVELOPMENT_TEAM = SW67XSUQ7J;
 				INFOPLIST_FILE = iosBeltExam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcarver.iosBeltExam;
@@ -278,7 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZT43KF76JM;
+				DEVELOPMENT_TEAM = SW67XSUQ7J;
 				INFOPLIST_FILE = iosBeltExam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrewcarver.iosBeltExam;
